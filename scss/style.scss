@@ -99,6 +99,9 @@ header {
         }
         .banner-image {
             transform: translateY(130px);
+            .mobile {
+                display: none;
+            }
         }
     }
 }
@@ -286,6 +289,7 @@ footer {
             }
             .banner-image {
                 transform: translateY(0px);
+                padding-left: -50px;
             }
         }
     }

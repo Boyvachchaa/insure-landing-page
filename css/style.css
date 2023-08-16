@@ -168,6 +168,9 @@ header menu nav .hamb-menu {
 .banner .banner-items .banner-image {
   transform: translateY(130px);
 }
+.banner .banner-items .banner-image .mobile {
+  display: none;
+}
 
 .different {
   padding-top: 305px;
@@ -316,6 +319,7 @@ footer nav ion-icon:hover {
   }
   .banner .banner-items .banner-image {
     transform: translateY(0px);
+    padding-left: -50px;
   }
   .different .section-cards {
     flex-direction: column;
